@@ -1,7 +1,33 @@
 
+html, body, *{
+    box-sizing: border-box;
+    font-family: 'Karla', sans-serif
+}
+
 form{
     display: flex;
+
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+input[type="text"]{
+    width: 100%;
+    padding: 10px 15px;
+}
+
+label{
+    font-size: 18px;
+    margin-bottom: -20px;
+    margin-left: 10px;
+    padding-left: 3px;
+    z-index: 1000;
+    background-color: white;
+    width: 43px
+}
+
+ul{
+    list-style: none;
+    padding-left: 0
+
 }
